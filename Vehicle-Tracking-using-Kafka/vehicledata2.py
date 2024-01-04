@@ -4,7 +4,7 @@ from datetime import datetime
 import uuid
 import time
 
-input_file = open('./data/vehicle2.json')
+input_file = open('./data/new_2.json')
 print(type(input_file))
 json_array = json.load(input_file)
 coordinates = json_array['features'][0]['geometry']['coordinates']
